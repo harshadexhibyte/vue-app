@@ -4,7 +4,13 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <Home data="Semple Props Data" /> -->
     <!-- <Master/> -->
-    <DataBind/>
+    <!-- <DataBind/> -->
+    <!-- <ForLoop/> -->
+    <!-- <SingUp/> -->
+    <!-- <Login/> -->
+    <!-- <EmployeeList/> -->
+    <!-- <PostApi/> -->
+    <DeleteApi/>
   </div>
 </template>
 
@@ -12,7 +18,14 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from './components/Home.vue'
 // import Master from './components/Master.vue'
-import DataBind from './components/DataBind.vue'
+// import DataBind from './components/DataBind.vue'
+// import ForLoop from './components/ForLoop.vue'
+// import SingUp from './components/SingUp.vue'
+// import Login from './components/Login.vue'
+// import EmployeeList from './components/EmployeeList.vue'
+// import PostApi from './components/PostApi.vue'
+import DeleteApi from './components/DeleteApi.vue'
+
 
 export default {
   name: 'App',
@@ -20,7 +33,13 @@ export default {
     // Home,
     // HelloWorld
     // Master
-    DataBind
+    // DataBind
+    // ForLoop
+    // SingUp
+    // Login
+    // EmployeeList
+    // PostApi
+    DeleteApi
   
   }
 }
